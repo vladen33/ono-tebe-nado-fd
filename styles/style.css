@@ -1,4 +1,9 @@
 .header {
+  display: grid;
+  grid-template-columns: 1fr 148px 1fr;
+  grid-template-rows: 293px;
+  align-items: center;
+  background-color: aquamarine;
 
 }
 
@@ -6,8 +11,20 @@
 
 }
 
-.header_logo {
+.header_menu ul {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  list-style: circle;
+}
 
+.header_menu ul li:first-child {
+  list-style: none;
+}
+
+.header_logo img {
+  height: 105px;
+  width: 148px;
 }
 
 .adress {

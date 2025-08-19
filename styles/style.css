@@ -128,30 +128,44 @@
 }
 
 .lots {
+  margin-top: 180px;
+  background-color: gray;
 
 }
 
 .lots__heading {
-
+  font-size: 40px;
+  margin-left: 64px;
+  margin-bottom: 27px;
 }
 
 .lots__card-list {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.lots__card-list-item {
+  width: 334px;
+  min-height: 596px;
 
 }
+
+.card {
+  position: relative;
+}
+
 .card-link {
 
 }
 
-.lots__card-list-item {
-
-}
-
 .card__title {
-
+  position: relative;
+  z-index: 1;
 }
 
 .card__text {
-
+  position: relative;
+  z-index: 1;
 }
 
 .lots__look-more-link {

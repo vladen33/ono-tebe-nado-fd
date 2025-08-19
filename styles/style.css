@@ -55,9 +55,16 @@
 }
 
 .cover {
-  /* position: relative; */
+  position: relative;
   background-image: url(../images/cover.jpg);
   min-height: 757px;
+}
+
+.overlay {
+  position: absolute;
+  background-color: black;
+  opacity: 60%;
+  inset: 0;
 }
 
 .cover__title {
@@ -66,6 +73,8 @@
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 30px;
+  position: relative;
+  z-index: 1;
 }
 
 .align-text {
@@ -87,17 +96,14 @@
   padding-left: 665px;
 }
 
-.overlay {
-  /* position: absolute; */
-
-}
-
 .cover__description {
   display: flex;
   justify-content: space-between;
   padding-top: 105px;
   padding-left: 50px;
   word-spacing: 18.5px;
+  position: relative;
+  z-index: 1;
 }
 
 .cover__description-text {

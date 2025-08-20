@@ -210,12 +210,13 @@
 .about {
   display: grid;
   grid-template-columns: 334px 1fr;
+  grid-template-rows: 595px;
   gap: 25px;
   background-color: bisque;
   margin: 120px 24px auto;
 }
 
-.about__column {
+.about__column-logo {
   margin-top: 32px;
   justify-items: center;
   align-items: center;
@@ -235,12 +236,32 @@
   width: 148px;
 }
 
-.about__title {
-
+.about__content {
+  margin-top: 132px;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
 }
 
-.about_text {
+.about__content div {
+  height: 100%;
+}
 
+.about__content div p:last-child {
+  margin-top: 24px;
+}
+
+.about__title {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.about__text {
+  font-size: 20px;
+}
+
+.about__text-first {
+  margin-right: 5px;
 }
 
 .footer {

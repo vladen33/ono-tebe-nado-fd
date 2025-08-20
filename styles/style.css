@@ -39,10 +39,10 @@
   justify-self: end;
   align-items: flex-start;
   max-width: 240px;
-  font-style: normal;
-  line-height: 23px;
   margin-right: 50px;
   padding-bottom: 5px;
+  font-style: normal;
+  line-height: 23px;
 }
 
 .address-link {
@@ -56,25 +56,25 @@
 
 .cover {
   position: relative;
-  background-image: url(../images/cover.jpg);
   min-height: 757px;
+  background-image: url(../images/cover.jpg);
 }
 
 .overlay {
   position: absolute;
-  background-color: black;
-  opacity: 60%;
   inset: 0;
+  opacity: 60%;
+  background-color: black;
 }
 
 .cover__title {
-  color: white;
-  font-size: 100px;
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 30px;
   position: relative;
   z-index: 1;
+  color: white;
+  font-weight: bold;
+  font-size: 100px;
+  letter-spacing: 30px;
+  text-transform: uppercase;
 }
 
 .align-text {
@@ -97,32 +97,32 @@
 }
 
 .cover__description {
+  position: relative;
+  z-index: 1;
   display: flex;
   justify-content: space-between;
   padding-top: 105px;
   padding-left: 50px;
   word-spacing: 18.5px;
-  position: relative;
-  z-index: 1;
 }
 
 .cover__description-text {
   align-self: center;
   color: white;
-  text-transform: uppercase;
-  font-size: 22px;
   font-weight: normal;
+  font-size: 22px;
+  text-transform: uppercase;
 }
 
 .bet-button {
-  border: 1px solid white;
-  color: white;
-  text-transform: uppercase;
-  font-size: 22px;
-  font-weight: normal;
-  background-color: transparent;
-  padding: 12px 31px;
   margin-right: 50px;
+  border: 1px solid white;
+  padding: 12px 31px;
+  color: white;
+  font-weight: normal;
+  font-size: 22px;
+  text-transform: uppercase;
+  background-color: transparent;
 
 }
 
@@ -131,17 +131,17 @@
 }
 
 .lots__heading {
-  font-size: 40px;
-  margin-left: 64px;
   margin-bottom: 27px;
+  margin-left: 64px;
+  font-size: 40px;
 }
 
 .lots__card-list {
-  list-style: none;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 25px
+  gap: 25px;
+  list-style: none;
 }
 
 .lots__card-list-item {
@@ -151,14 +151,14 @@
 
 .card {
   position: relative;
-  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  background-size: cover;
-  background-position: center;
+  height: 100%;
   color: white;
+  background-position: center;
+  background-size: cover;
 }
 
 .card_type_film {
@@ -180,18 +180,18 @@
 .card__title {
   position: relative;
   z-index: 1;
+  margin-top: 48px;
+  font-weight: bold;
+  font-size: 22px;
   text-decoration: underline;
   text-transform: uppercase;
-  font-size: 22px;
-  font-weight: bold;
-  margin-top: 48px;
 }
 
 .card__text {
   position: relative;
   z-index: 1;
-  font-size: 20px;
   margin-bottom: 48px;
+  font-size: 20px;
 }
 
 .card__title, .card__text {
@@ -200,10 +200,10 @@
 
 .lots__look-more-link {
   display: inline-block;
+  margin: 30px auto 2px 65px;
+  border-bottom: 1px solid black;
   font-size: 20px;
   text-decoration: none;
-  border-bottom: 1px solid black;
-  margin: 30px auto 2px 65px;
 }
 
 .about {
@@ -215,18 +215,18 @@
 }
 
 .about__column-logo {
-  margin-top: 32px;
   justify-items: center;
   align-items: center;
+  margin-top: 32px;
 }
 
 .about__logo {
-  width: 240px;
-  height: 240px;
-  background-color: black;
-  border-radius: 50%;
   display: flex;
   justify-content: center;
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  background-color: black;
 }
 
 .about__logo-image {
@@ -234,10 +234,10 @@
 }
 
 .about__content {
-  margin-top: 132px;
   display: flex;
   flex-direction: column;
   gap: 100px;
+  margin-top: 132px;
 }
 
 .about__content div {
@@ -245,15 +245,15 @@
 }
 
 .about__title {
-  font-size: 40px;
   font-weight: bold;
+  font-size: 40px;
 }
 
 .about__text {
-  font-size: 20px;
   display: flex;
   flex-direction: column;
   gap: 24px;
+  font-size: 20px;
 }
 
 .about__text p:first-child {
@@ -262,11 +262,11 @@
 
 .footer {
   display: grid;
+  grid-template-columns: 340px 420px 340px;
+  grid-template-rows: 180px;
   width: 100%;
   margin-top: 177px;
   font-size: 18px;
-  grid-template-columns: 340px 420px 340px;
-  grid-template-rows: 180px;
 }
 
 .footer__menu {
@@ -287,8 +287,8 @@
 }
 
 .footer__menu-link {
-  text-decoration: none;
   border-bottom: 1px solid black;
+  text-decoration: none;
 } 
 
 .footer__menu-link_active {
@@ -296,10 +296,10 @@
 }
 
 .footer__social-list {
-  list-style: none;
   display: flex;
   justify-content: center;
   gap: 48px;
+  list-style: none;
 }
 
 .footer__social-icon {

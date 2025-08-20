@@ -18,7 +18,7 @@
   list-style: none;
 }
 
-.header__links-list-item {  
+.header__links-list-item {
   border-bottom: 1px solid black;
 }
 
@@ -289,7 +289,7 @@
 .footer__menu-link {
   border-bottom: 1px solid black;
   text-decoration: none;
-} 
+}
 
 .footer__menu-link_active {
   border-bottom: none;

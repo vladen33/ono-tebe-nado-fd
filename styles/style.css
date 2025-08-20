@@ -9,7 +9,7 @@
   display: flex;
   justify-content: center;
   gap: 33px;
-  padding-bottom: 9px;
+  padding-bottom: 5px;
   padding-left: 7px;
   list-style: circle;
 }
@@ -18,7 +18,7 @@
   list-style: none;
 }
 
-.header__links-list-item {
+.header__links-list-item {  
   border-bottom: 1px solid black;
 }
 
@@ -42,9 +42,10 @@
   font-style: normal;
   line-height: 23px;
   margin-right: 50px;
+  padding-bottom: 5px;
 }
 
-.address a {
+.address-link {
   border-bottom: 1px solid black;
   text-decoration: none;
 }
@@ -107,7 +108,6 @@
   text-transform: uppercase;
   font-size: 22px;
   font-weight: normal;
-
 }
 
 .bet-button {
@@ -207,7 +207,6 @@
   grid-template-columns: 334px 1fr;
   grid-template-rows: 595px;
   gap: 25px;
-  background-color: bisque;
   margin: 120px 24px auto;
 }
 
@@ -224,7 +223,6 @@
   border-radius: 50%;
   display: flex;
   justify-content: center;
-
 }
 
 .about__logo-image {
@@ -262,13 +260,9 @@
   display: grid;
   width: 100%;
   margin-top: 177px;
-  background-color: aquamarine;
   font-size: 18px;
-  
-  /* grid-template-columns: repeat(3, 1fr); */
   grid-template-columns: 340px 420px 340px;
   grid-template-rows: 180px;
-
 }
 
 .footer__menu {
@@ -297,20 +291,11 @@
   border-bottom: none;
 }
 
-
 .footer__social-list {
   list-style: none;
   display: flex;
   justify-content: center;
   gap: 48px;
-}
-
-.footer__social-list-item {
-  /* display: inline-block; */
-}
-
-.footer__social-link {
-
 }
 
 .footer__social-icon {

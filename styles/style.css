@@ -33,18 +33,21 @@
   padding-bottom: 92px;
 }
 
-.adress {
+.address {
   display: flex;
   flex-direction: column;
   justify-self: end;
   align-items: flex-start;
   max-width: 240px;
-  margin-right: 50px;
   font-style: normal;
   line-height: 23px;
 }
 
-.adress a {
+.address-header {
+  margin-right: 50px;
+}
+
+.address a {
   border-bottom: 1px solid black;
   text-decoration: none;
 }
@@ -259,11 +262,19 @@
 }
 
 .footer {
+  display: grid;
+  width: 100%;
+  margin-top: 177px;
+  background-color: aquamarine;
+  font-size: 18px;
+  
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 180px;
 
 }
 
-.adress {
-
+.address-footer {
+  margin-right: 75px;
 }
 
 .footer_menu {

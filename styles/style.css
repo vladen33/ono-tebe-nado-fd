@@ -208,19 +208,35 @@
 }
 
 .about {
+  display: grid;
+  grid-template-columns: 334px 1fr;
+  gap: 25px;
+  background-color: bisque;
+  margin: 120px 24px auto;
+}
 
+.about__column {
+  margin-top: 32px;
+  justify-items: center;
+  align-items: center;
 }
 
 .about__logo {
+  width: 240px;
+  height: 240px;
+  background-color: black;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
 
 }
 
 .about__logo-image {
-
+  width: 148px;
 }
 
 .about__title {
-  
+
 }
 
 .about_text {

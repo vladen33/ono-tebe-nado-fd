@@ -50,6 +50,10 @@
   text-decoration: none;
 }
 
+.address-text {
+  margin-top: 2px;
+}
+
 .cover {
   position: relative;
   background-image: url(../images/cover.jpg);

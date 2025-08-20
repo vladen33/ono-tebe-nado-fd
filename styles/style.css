@@ -281,11 +281,35 @@
 
 }
 
-.social_list {
+.footer__menu-list {
 
 }
 
-.social_list_item {
+.footer__menu-list-item {
 
 }
 
+.footer__menu-link {
+
+} 
+
+.footer__menu-link_active {
+
+}
+
+
+.footer__social-list {
+
+}
+
+.footer__social-list-item {
+
+}
+
+.footer__social-link {
+
+}
+
+.footer__social-icon {
+  
+}

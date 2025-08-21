@@ -5,7 +5,7 @@
   font-size: 18px;
 }
 
-.header__link-list {
+.header__menu-list {
   display: flex;
   justify-content: center;
   gap: 33px;
@@ -14,15 +14,16 @@
   list-style: circle;
 }
 
-.header__links-list-item:first-child {
+.header__menu-list-item:first-child {
   list-style: none;
 }
 
-.header__links-list-item {  
+.header__menu-link {
   border-bottom: 1px solid black;
-}
+  text-decoration: none;
+} 
 
-.header__links-list-item.active {
+.header__menu-link_active {
   border-bottom: none;
 }
 
@@ -120,12 +121,11 @@
   margin-right: 50px;
   color: white;
   border: 1px solid currentColor;
-  padding: 12px 31px;  
+  padding: 12px 31px;
   font-weight: normal;
   font-size: 22px;
   text-transform: uppercase;
   background-color: transparent;
-
 }
 
 .lots {
@@ -283,7 +283,6 @@
 
 .footer__menu-list {
   list-style: none;
-
 }
 
 .footer__menu-list-item {

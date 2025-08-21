@@ -118,9 +118,9 @@
 
 .bet-button {
   margin-right: 50px;
-  border: 1px solid white;
-  padding: 12px 31px;
   color: white;
+  border: 1px solid currentColor;
+  padding: 12px 31px;  
   font-weight: normal;
   font-size: 22px;
   text-transform: uppercase;
